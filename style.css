@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+body {
+  background: black;
+}
+
+.main-background {
+  opacity: 80%;
+  background-image: url("https://img.freepik.com/premium-photo/night-sky-long-time-many-stars-night-sky-space-stars-soft-focus_217333-1327.jpg?w=826")
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Source Code Pro';
+  text-shadow: 0 0 10px white,
+    0 0 20px white,
+    0 0 40px white,
+    0 0 80px white,
+    0 0 160px white,
+    0 0 360px white;
+}
+
+h2 {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Source Code Pro';
+  text-shadow: 0 0 10px white,
+    0 0 20px white,
+    0 0 40px white,
+    0 0 80px white,
+    0 0 160px white,
+    0 0 360px white;
+  opacity: 85%;
+}
+
+h3 {
+  color: white;
+  font-family: 'Source Code Pro';
+  font-size: 50px;
+  text-shadow: 0 0 10px white,
+    0 0 20px white,
+    0 0 40px white,
+    0 0 80px white,
+    0 0 120px white,
+    0 0 160px white;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: white;
+}
+
+.hide {
+  display: none;
+  font-family: 'Source Code Pro';
+  color: white;
+  font-size: 15px;
+  opacity: 80%;
+}
+
+.star-1 {
+  margin-left: 250px;
+}
+.hide-1 {
+  margin-left: 100px;
+}
+
+.star-2 {
+  margin-left: 850px;
+}
+.hide-2 {
+  margin-left: 660px;
+}
+
+.star-3 {
+  margin-left: 700px;
+}
+.hide-3 {
+  margin-left: 600px;
+}
+
+.star-4 {
+  margin-left: 1400px;
+}
+.hide-4 {
+  margin-left: 1280px;
+}
+
+.star-5 {
+  margin-left: 500px;
+}
+.hide-5 {
+  margin-left: 400px;
+}
+
+.star-6 {
+  margin-left: 330px;
+}
+.hide-6 {
+  margin-left: 120px;
+}
+
+.star-7 {
+  margin-left: 780px;
+}
+.hide-7 {
+  margin-left: 730px;
+}
+
+h4 {
+  margin: 100px;
+  color: white;
+  font-size: 100px;
+  text-shadow: 0 0 10px white,
+    0 0 20px white,
+    0 0 40px white,
+    0 0 80px white,
+    0 0 120px white,
+    0 0 160px white;
+}
+
+.create-column {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.create-column h4{
+  padding-left: 33%;
+}
+
+.create-column div {
+  padding: 5px;
+  width: 70%;
+}
+
+p {
+  text-align: center;
+  font-family: 'Source Code Pro';
+  font-size: 15px;
+  color: white;
+  opacity: 85%;
+}
+
+img {
+display: block;
+  margin: auto;
+  opacity: 70%;
+}
+
+.star-8 {
+  margin-left: 635px;
+  color: white;
+  font-family: 'Source Code Pro';
+  font-size: 50px;
+  text-shadow: 0 0 10px white,
+    0 0 20px white,
+    0 0 40px white,
+    0 0 80px white,
+    0 0 120px white,
+    0 0 160px white;
+}
+
+.hide-8 {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#code {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Source Code Pro';
+  text-shadow: 0 0 10px white,
+    0 0 20px white,
+    0 0 40px white,
+    0 0 80px white,
+    0 0 120px white,
+    0 0 160px white;
+}
